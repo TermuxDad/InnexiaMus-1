@@ -4,7 +4,7 @@ from pytgcalls import PyTgCalls
 from InnexiaMusic.config import API_HASH, API_ID, SESSION
 from Innexia.callsmusic import queues
 
-client = Client(SESSION_NAME, API_ID, API_HASH)
+client = Client(SESSION, API_ID, API_HASH)
 pytgcalls = PyTgCalls(client)
 
 
