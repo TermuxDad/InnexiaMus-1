@@ -2,7 +2,7 @@ import requests
 from pyrogram import Client as Bot
 
 from InnexiaMusic.config import API_HASH, API_ID, BG_IMAGE, TOKEN
-from Innexia.services.callsmusic import run
+from Innexia.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 file = open("./image/foreground.png", "wb")
