@@ -18,8 +18,8 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from VCPlayBot.config import DURATION_LIMIT
-from VCPlayBot.modules.play import arq
+from InnexiaMusic.config import DURATION_LIMIT
+from plugins.play import arq
 
 
 @Client.on_message(filters.command("song") & ~filters.channel)
