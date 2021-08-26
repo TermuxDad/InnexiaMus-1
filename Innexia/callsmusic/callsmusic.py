@@ -2,7 +2,7 @@ from pyrogram import Client
 from pytgcalls import PyTgCalls
 
 from InnexiaMusic.config import API_HASH, API_ID, SESSION
-from Innexia.queues
+from Innexia.callsmusic import queues
 
 client = Client(SESSION, API_ID, API_HASH)
 pytgcalls = PyTgCalls(client)
