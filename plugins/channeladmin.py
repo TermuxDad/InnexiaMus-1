@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 from InnexiaMusic.function.admins import set
-from helpers.channelmusic import get_chat_id
+from helpers.channel import get_chat_id
 from helpers.decorators import authorized_users_only, errors
 from helpers.filters import command, other_filters
 from Innexia.callsmusic import callsmusic
