@@ -23,7 +23,7 @@ from InnexiaMusic.config import UPDATES_CHANNEL as updateschannel
 from InnexiaMusic.config import que
 from InnexiaMusic.function.admins import admins as a
 from helpers.admins import get_administrators
-from helpers.channelmusic import get_chat_id
+from helpers.channel import get_chat_id
 from helpers.errors import DurationLimitError
 from helpers.decorators import errors
 from helpers.decorators import authorized_users_only
