@@ -30,7 +30,7 @@ from InnexiaMusic.function.admins import admins as a
 from helpers.errors import DurationLimitError
 from helpers.decorators import errors
 from helpers.admins import get_administrators
-from helpers.channelmusic import get_chat_id
+from helpers.channel import get_chat_id
 from helpers.decorators import authorized_users_only
 from helpers.filters import command, other_filters
 from helpers.gets import get_file_name
