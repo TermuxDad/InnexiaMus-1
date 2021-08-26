@@ -7,7 +7,7 @@ from InnexiaMusic.function.admins import set
 from helpers.channel import get_chat_id
 from helpers.decorators import authorized_users_only, errors
 from helpers.filters import command, other_filters
-from Innexia.services.callsmusic import callsmusic
+from Innexia.callsmusic import callsmusic
 
 
 @Client.on_message(filters.command("reload"))
